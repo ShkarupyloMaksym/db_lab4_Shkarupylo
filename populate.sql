@@ -1,0 +1,43 @@
+INSERT INTO organization (organizationName, organizationCountry, organizationCity) VALUES ('Szeged University', 'Hungary', 'Szeged');
+INSERT INTO organization (organizationName, organizationCountry, organizationCity) VALUES ('Harvard University', 'USA', 'Cambridge MA');
+INSERT INTO organization (organizationName, organizationCountry, organizationCity) VALUES ('Nanocrystals Technology Inc.', 'USA', 'New York NY');
+INSERT INTO organization (organizationName, organizationCountry, organizationCity) VALUES ('Columbia University', 'USA', 'New York NY');
+INSERT INTO organization (organizationName, organizationCountry, organizationCity) VALUES ('Massachusetts Institute of Technology (MIT)', 'USA', 'Cambridge MA');
+INSERT INTO organization (organizationName, organizationCountry, organizationCity) VALUES ('Lund University', 'Sweden', 'Lund');
+INSERT INTO organization (organizationName, organizationCountry, organizationCity) VALUES ('Max Planck Institute of Quantum Optics', 'Germany', 'Garching');
+INSERT INTO organization (organizationName, organizationCountry, organizationCity) VALUES ('The Ohio State University', 'USA', 'Columbus OH');
+INSERT INTO organization (organizationName, organizationCountry, organizationCity) VALUES ('Penn Institute for RNA Innovations University of Pennsylvania', 'USA', 'Philadelphia PA');
+INSERT INTO organization (organizationName, organizationCountry, organizationCity) VALUES ('Institut dOptique Graduate School - Universite Paris-Saclay', 'France', 'Paris');
+
+INSERT INTO laureate (laureateID, fullName, gender, born, organizationName) VALUES (1024, 'Katalin Kariko', 'female', DATE '17-01-1955', 'Szeged University');
+INSERT INTO laureate (laureateID, fullName, gender, born, organizationName) VALUES (1034, 'Claudia Goldin', 'female', DATE '1946-01-01', 'Harvard University');
+INSERT INTO laureate (laureateID, fullName, gender, born, organizationName) VALUES (1031, 'Alexei Ekimov', 'male', DATE '1945-01-01', 'Nanocrystals Technology Inc.');
+INSERT INTO laureate (laureateID, fullName, gender, born, organizationName) VALUES (1030, 'Louis Brus', 'male', DATE '1943-01-01', 'Columbia University');
+INSERT INTO laureate (laureateID, fullName, gender, born, organizationName) VALUES (1029, 'Moungi Bawendi', 'male', DATE '1961-01-01', 'Massachusetts Institute of Technology (MIT)');
+INSERT INTO laureate (laureateID, fullName, gender, born, organizationName) VALUES (1028, 'Anne L Huillier', 'female', DATE '16-08-1958', 'Lund University');
+INSERT INTO laureate (laureateID, fullName, gender, born, organizationName) VALUES (1027, 'Ferenc Krausz', 'male', DATE '17-05-1962', 'Max Planck Institute of Quantum Optics');
+INSERT INTO laureate (laureateID, fullName, gender, born, organizationName) VALUES (1026, 'Pierre Agostini', 'male', DATE '23-07-1941', 'The Ohio State University');
+INSERT INTO laureate (laureateID, fullName, gender, born, organizationName) VALUES (1025, 'Drew Weissman', 'male', DATE '7/9/1959', 'Penn Institute for RNA Innovations University of Pennsylvania');
+INSERT INTO laureate (laureateID, fullName, gender, born, organizationName) VALUES (1012, 'Alain Aspect', 'male', DATE '15-06-1947', 'Institut dOptique Graduate School - Universite Paris-Saclay');
+
+INSERT INTO prize (id, year, category) VALUES (0, 2023, 'medicine');
+INSERT INTO prize (id, year, category) VALUES (1, 2023, 'economics');
+INSERT INTO prize (id, year, category) VALUES (2, 2023, 'chemistry');
+INSERT INTO prize (id, year, category) VALUES (3, 2023, 'chemistry');
+INSERT INTO prize (id, year, category) VALUES (4, 2023, 'chemistry');
+INSERT INTO prize (id, year, category) VALUES (5, 2023, 'physics');
+INSERT INTO prize (id, year, category) VALUES (6, 2023, 'physics');
+INSERT INTO prize (id, year, category) VALUES (7, 2023, 'physics');
+INSERT INTO prize (id, year, category) VALUES (8, 2023, 'medicine');
+INSERT INTO prize (id, year, category) VALUES (9, 2022, 'physics');
+
+INSERT INTO prizelaureates (id, laureateID) VALUES (0, 1024);
+INSERT INTO prizelaureates (id, laureateID) VALUES (1, 1034);
+INSERT INTO prizelaureates (id, laureateID) VALUES (2, 1031);
+INSERT INTO prizelaureates (id, laureateID) VALUES (3, 1030);
+INSERT INTO prizelaureates (id, laureateID) VALUES (4, 1029);
+INSERT INTO prizelaureates (id, laureateID) VALUES (5, 1028);
+INSERT INTO prizelaureates (id, laureateID) VALUES (6, 1027);
+INSERT INTO prizelaureates (id, laureateID) VALUES (7, 1026);
+INSERT INTO prizelaureates (id, laureateID) VALUES (8, 1025);
+INSERT INTO prizelaureates (id, laureateID) VALUES (9, 1012);
